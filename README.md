@@ -1,12 +1,17 @@
-# React + Vite
+# NaiNaiLong 🦖 
+A peer-to-peer tutoring platform that connects students and tutors with flexible lessons, gamification, and an accessible web experience.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About the Project  
+Students often struggle to find affordable and flexible tutoring. Traditional tutoring is expensive, rigid in scheduling, and limited to personal networks. Meanwhile, many talented peers have knowledge to share but lack opportunities.  
 
-Currently, two official plugins are available:
+**NaiNaiLong** bridges this gap by providing a platform where:  
+- Students can book **live or pre-recorded lessons** at affordable rates.  
+- Tutors can **upload resources, conduct lessons, and earn through gamification**.  
+- A **coin system and streak rewards** make learning fun and engaging.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features  
+- 👩‍🏫 **Dual Roles** – Switch between tutor and student.  
+- 📊 **Dashboard** – Track coins, streaks, and progress.  
+- 🎥 **Lesson Options** – Upload pre-recorded or conduct live lessons.  
+- 🪙 **Gamification** – Earn coins and rewards for learning/teaching.  
+- 🌐 **Web-based** – Accessible from any device, deployed online.   
