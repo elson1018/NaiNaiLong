@@ -12,8 +12,15 @@ Students often struggle to find affordable and flexible tutoring. Traditional tu
 - A **coin system and streak rewards** make learning fun and engaging.  
 
 ## ✨ Features  
-- 👩‍🏫 **Dual Roles** – Switch between tutor and student.  
-- 📊 **Dashboard** – Track coins, streaks, and progress.  
-- 🎥 **Lesson Options** – Upload pre-recorded or conduct live lessons.  
-- 🪙 **Gamification** – Earn coins and rewards for learning/teaching.  
-- 🌐 **Web-based** – Accessible from any device, deployed online.   
+- 👩‍🏫 **Dual Roles** – Switch seamlessly between being a tutor and a student.  
+- 📊 **Dashboard** – Track coins, streaks, completed lessons, and progress.  
+- 🎥 **Lesson Options** – Tutors can upload pre-recorded lessons or conduct live sessions.  
+- 🪙 **Gamification** – Earn coins and streak rewards for learning and teaching consistently.  
+- 🔍 **Search & Filter** – Quickly find lessons or tutors based on subject, skill level, or availability.  
+- 💬 **Messaging System** – Simple chat between students and tutors for coordination. 
+- 📂 **Resource Sharing** – Tutors can upload notes, slides, or exercises for students to access.
+
+## 🛠 Tech Stack  
+- **Frontend:** React + Vite  
+- **Styling:** CSS  
+- **Deployment:** GitHub Pages 
