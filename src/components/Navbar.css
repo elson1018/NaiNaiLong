@@ -1,0 +1,247 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 0.8rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #2563eb;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #1e4fcf;
+}
+
+.search-container {
+  flex: 1;
+  margin: 0 1.5rem;
+  max-width: 400px;
+  position: relative;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.search-bar:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  z-index: 20;
+  margin-top: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f5f9;
+  font-weight: 600;
+  color: #0f172a;
+  transition: background-color 0.2s ease;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #f1f5f9;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  color: #64748b;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+  background: #e0eaff;
+}
+
+.login-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.login-btn:hover {
+  background: #e0eaff;
+}
+
+.signup-btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.signup-btn:hover {
+  background: #1e4fcf;
+}
+
+.nav-profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  background: #f1f5f9;
+}
+
+.avatar-pill {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+}
+
+.profile-meta {
+  line-height: 1.1;
+}
+.profile-name {
+  font-size: 0.9rem;
+  color: #0f172a;
+  font-weight: 800;
+}
+.profile-role {
+  font-size: 0.75rem;
+  color: #475569;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.25rem 0.4rem;
+}
+
+.profile-menu {
+  position: relative;
+}
+.profile-trigger {
+  background: transparent;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+
+.menu-dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  min-width: 200px;
+  padding: 0.5rem;
+  z-index: 20;
+}
+
+.menu-item {
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: #0f172a;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+}
+
+.menu-item:hover {
+  background: #f1f5f9;
+}
+.menu-item.danger {
+  color: #ef4444;
+}
+.menu-sep {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+
+  .nav-buttons {
+    margin-left: 1rem;
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .login-btn,
+  .signup-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}

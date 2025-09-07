@@ -1,0 +1,66 @@
+/* Global Font Styles for Consistency */
+* {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+/* Base font weights for consistency */
+body {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Headings - Bold and consistent */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+/* Paragraphs and text - Medium-bold */
+p,
+span,
+div,
+label {
+  font-weight: 600;
+}
+
+/* Links - Bold */
+a {
+  font-weight: 700;
+}
+
+/* Buttons - Extra bold */
+button,
+.btn {
+  font-weight: 700;
+}
+
+/* Form elements - Bold */
+input,
+textarea,
+select {
+  font-weight: 600;
+}
+
+/* Small text - Medium-bold */
+small,
+.text-sm {
+  font-weight: 600;
+}
+
+/* Reset some specific elements that should be lighter */
+.nav-link {
+  font-weight: 600;
+}
+
+/* Ensure consistent font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
