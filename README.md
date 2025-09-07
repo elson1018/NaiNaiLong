@@ -1,3 +1,5 @@
+# Student Lifestyle - Tutoring for Students (Website)
+
 # NaiNaiLong 🦖 
 A peer-to-peer tutoring platform that connects students and tutors with flexible lessons, gamification, and an accessible web experience.  
 
